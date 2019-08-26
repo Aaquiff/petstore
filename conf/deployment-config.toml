@@ -3,7 +3,7 @@
   [docker.dockerConfig]
     enable = true
     name = "petstore"
-    registry = 'docker.wso2.com'
+    registry = 'index.docker.io/aaquiff'
     tag = 'v1'
     #buildImage = ''
     #dockerHost = ''
