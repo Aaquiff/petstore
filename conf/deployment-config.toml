@@ -1,0 +1,22 @@
+
+[docker]
+  [docker.dockerConfig]
+    enable = true
+    name = "petstore"
+    registry = 'docker.wso2.com'
+    tag = 'v1'
+    #buildImage = ''
+    #dockerHost = ''
+    #dockerCertPath = ''
+    baseImage = 'wso2/wso2micro-gw:3.0.1'
+    #enableDebug = ''
+    #debugPort = ''
+    #push = ''
+    #username = ''
+    #password = ''
+  [docker.dockerCopyFiles]
+    enable = true
+    [[docker.dockerCopyFiles.files]]
+        source = '<MICROGW_TOOLKIT_HOME>/resources/conf/micro-gw.conf'
+        target = '/home/ballerina/conf/micro-gw.conf'
+        isBallerinaConf = true
