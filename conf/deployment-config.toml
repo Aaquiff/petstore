@@ -6,6 +6,6 @@
     [docker.dockerCopyFiles]
         enable = true
         [[docker.dockerCopyFiles.files]]
-            source = '/Users/Aaquiff/wso2am-micro-gw-toolkit-3.0.1/resources/conf/micro-gw.conf'
+            source = '$MICROGW_TOOLKIT_HOME/resources/conf/micro-gw.conf'
             target = '/home/ballerina/conf/micro-gw.conf'
             isBallerinaConf = true
