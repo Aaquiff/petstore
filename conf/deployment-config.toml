@@ -3,6 +3,7 @@
         enable = true
         name = "petstore"
         registry = 'index.docker.io/aaquiff'
+        tag = 'v1'
     [docker.dockerCopyFiles]
         enable = true
         [[docker.dockerCopyFiles.files]]
