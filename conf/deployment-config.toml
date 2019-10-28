@@ -8,6 +8,6 @@
     [docker.dockerCopyFiles]
         enable = true
         [[docker.dockerCopyFiles.files]]
-            source = '$MICROGW_TOOLKIT_HOME/resources/conf/micro-gw.conf'
+            source = '../../conf/micro-gw.conf'
             target = '/home/ballerina/conf/micro-gw.conf'
             isBallerinaConf = true
